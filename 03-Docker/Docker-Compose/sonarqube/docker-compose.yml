@@ -6,9 +6,9 @@ services:
   sonarqube:
     image: sonarqube
     expose:
-      - 9000
+      - 9900
     ports:
-      - "8090:9000"
+      - "8090:9900"
     networks:
       - sonarnet
     environment:
