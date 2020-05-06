@@ -4,9 +4,14 @@
 [db]
 40.84.35.246
 
+[petclinic]
+40.84.35.246
+
+
 [dc:children]
 web
 db
+petclinic
 
 [dc:vars]
 ansible_ssh_user="root"
